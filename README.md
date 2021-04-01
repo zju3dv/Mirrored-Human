@@ -13,6 +13,10 @@
 <div align="center">
     <img src="doc/assets/smpl-avatar.gif" width="80%">
 </div>
+<div align="center">
+    <img src="doc/assets/calorie.gif" width="40%">
+    <img src="doc/assets/imitate.gif" width="40%">
+</div>
 
 ## Features  
 In this paper, we introduce the new task of reconstructing 3D human pose from a single image in which we can see the person  and the person’s image through a mirror.
@@ -42,9 +46,10 @@ python3 easymocap/demo_1v1pmf_smpl_mirror.py ${data} --out ${out} --video --vis_
 ## Mirrored-Human Dataset (Coming Soon)
 Due to the license limitation, we cannot share the raw data directly. We are working hard to organize the Mirrored-Human dataset in terms of url links and timestamps.
 
-<p style="text-align:center;">
+<div align="center">
   <img src="doc/assets/dataset_show.jpg" width="70%" />
-</p>
+</div>
+
 
 ## Evaluation  
 To evaluate the reconstruction part in our paper, see [doc/evaluation.md](doc/evaluation.md).
@@ -59,9 +64,10 @@ See [doc/internet.md](doc/internet.md) for more instructions.
 ## Build Custom Evaluation Dataset (Multi-View)  
 See [doc/custom.md](doc/custom.md) for more instructions.
 
-<p style="text-align:center;">
+<div align="center">
   <img src="doc/assets/000530_mesh.jpg" width="70%" />
-</p>
+</div>
+
 
 ## Contact  
 Please open an issue if you have any questions. We appreciate all contributions to improve our project.
