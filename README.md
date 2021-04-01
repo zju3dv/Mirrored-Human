@@ -16,7 +16,10 @@
 <div align="center">
     <img src="doc/assets/calorie.gif" width="40%">
     <img src="doc/assets/imitate.gif" width="40%">
+    <br>
+    <sup>The videos are from <a href="https://www.youtube.com/watch?v=KOCJJ27hhIE">Youtube<a/> and Douyin, please contact us for any problems of copyright.</sup>
 </div>
+
 
 ## Features  
 In this paper, we introduce the new task of reconstructing 3D human pose from a single image in which we can see the person  and the person’s image through a mirror.
