@@ -6,7 +6,7 @@
 
 # Reconstructing 3D Human Pose by Watching Humans in the Mirror
 
-> [![](https://img.shields.io/badge/homepage-brightgreen)](https://zju3dv.github.io/Mirrored-Human/) [![report](https://img.shields.io/badge/arxiv-link-red)](https://arxiv.org/abs/0000.00000)  
+> [![](https://img.shields.io/badge/homepage-brightgreen)](https://zju3dv.github.io/Mirrored-Human/) [![report](https://img.shields.io/badge/arxiv-link-red)](https://arxiv.org/pdf/2104.00340.pdf)  
 > Qi Fang\*, Qing Shuai\*, Junting Dong, Hujun Bao, Xiaowei Zhou  
 > CVPR 2021 Oral
 
@@ -17,7 +17,7 @@
     <img src="doc/assets/calorie.gif" width="40%">
     <img src="doc/assets/imitate.gif" width="40%">
     <br>
-    <sup>The videos are from <a href="https://www.youtube.com/watch?v=KOCJJ27hhIE">Youtube<a/> and Douyin, please contact us for any problems of copyright.</sup>
+    <sup>The videos are from <a href="https://www.youtube.com/watch?v=KOCJJ27hhIE">Youtube<a/> and Douyin. Please contact us for any copyright issue.</sup>
 </div>
 
 
