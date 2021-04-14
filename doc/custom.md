@@ -2,8 +2,8 @@
  * @Date: 2021-03-30 15:01:36
  * @Author: Qing Shuai
  * @LastEditors: Qing Shuai
- * @LastEditTime: 2021-03-30 19:52:43
- * @FilePath: /Mirrored-Human/doc/custom.md
+ * @LastEditTime: 2021-04-14 14:18:42
+ * @FilePath: /Mirrored-Human-public/doc/custom.md
 -->
 # Build Your Custom Dataset
 
@@ -23,7 +23,7 @@ If there exists only one person in the scene, we set the person ID to 0 and 1 of
 Set the data path and the output path to `data` and `out` before you do this step.
 
 ```bash
-python3 code/demo_mv1pmf_mirror.py ${data} --use_skel --smooth 2 --out ${out}
+python3 apps/demo/mv1p_mirror.py ${data} --out ${out} --annot annots --verbose --vis_smpl --skel --sub_vis 3 --vis_repro --body body15 --vis_det --opts reg_shapes 2e-3 smooth_body 5e-1 smooth_poses 1e-1 reg_poses_zero 1e-3
 ```
 
 This script will simply triangulate the keypoints from in and out the mirror. Some flags are helpful to check the results:
@@ -37,14 +37,11 @@ If everything works well, you will see the reprojection of the 3D skeletons like
 
 ![repro](assets/000530_skel.jpg)
 
-## 4. (Optional) Reconstrut 3D SMPL
-```bash
-python3 code/demo_mv1pmf_mirror.py ${data} --smooth 2
-```
+## 4. Reconstrut 3D SMPL
 
 The render results will be like this:
 
-![repro](assets/000530_mesh.jpg)
+![smpl](assets/000530_mesh.jpg)
 
 ## 5. Visualize
 Render the skeleton:

@@ -35,7 +35,7 @@ This implementation:
 This repo has a close relation with EasyMocap. Please refer to our [EasyMocap](https://github.com/zju3dv/EasyMocap) project for installation.
 
 ## Demo
-Download our [data/sample-videos.zip](./data/sample-videos.zip)  and run the following code:
+Download our [zju-m-test.zip](https://www.dropbox.com/s/hk147ov7wc5xzzp/zju-m-demo.zip?dl=0)  and run the following code:
 ```bash
 # set the data path
 data=<path_to_sample>/sample-videos
@@ -43,34 +43,56 @@ out=<path_to_sample>/sample-videos-output
 # extract the video frames
 python3 scripts/preprocess/extract_video.py ${data}
 # Run demo on videos
-python3 easymocap/demo_1v1pmf_smpl_mirror.py ${data} --out ${out} --video --vis_smpl
+python3 apps/demo/1v1p_mirror.py ${data} --out ${out} --vis_smpl --video
 ```
 
 ## Mirrored-Human Dataset (Coming Soon)
 Due to the license limitation, we cannot share the raw data directly. We are working hard to organize the Mirrored-Human dataset in terms of url links and timestamps.
 
+See [Build Your Internet Dataset](#Build-Custom-Internet-Dataset) if you can't wait for our release.
+
 <div align="center">
   <img src="doc/assets/dataset_show.jpg" width="70%" />
 </div>
 
+## Annotator
 
-## Evaluation  
-To evaluate the reconstruction part in our paper, see [doc/evaluation.md](doc/evaluation.md).
+We also provide the annotator metioned in our paper. 
 
-## Annotator (Coming Soon)
+The first row shows that we label the edges of the mirror and calculate the vanishing point by the human body automaticly. The intrisic camera parameter can be calculated by this two vanishing points.
 
-See [doc/annotator.md](doc/annotator.md) for more instructions.
+The second row shows that to obtain a more accurate vanishing points and camera parameters, we can label the parallel lines in the scene, for example the door, the grid in the ground, and the door.
 
-## Build Custom Internet Dataset (Mirror)
+<div align="center">
+  <img src="doc/assets/vanish_body.jpg" width="35%" />
+  <img src="doc/assets/vanish_body0.jpg" width="35%" /><br/>
+  <img src="doc/assets/vanish_scene.jpg" width="35%" />
+  <img src="doc/assets/vanish_scene0.jpg" width="35%" />
+  
+</div>
+
+See [EasyMocap/apps/annotator](doc/annotator.md) for more instructions.
+
+## Build Custom Internet Dataset
+
 See [doc/internet.md](doc/internet.md) for more instructions.
 
-## Build Custom Evaluation Dataset (Multi-View)  
+## Build Custom Evaluation Dataset (Multi-View)
+
+This part is provided for the researchers who want to:
+
+1. capture more accurate human motion with multiple cameras and a mirror
+2. build a different evaluation dataset
+
 See [doc/custom.md](doc/custom.md) for more instructions.
 
 <div align="center">
   <img src="doc/assets/000530_mesh.jpg" width="70%" />
 </div>
 
+## Evaluation
+
+To evaluate the reconstruction part in our paper, see [doc/evaluation.md](doc/evaluation.md).
 
 ## Contact  
 Please open an issue if you have any questions. We appreciate all contributions to improve our project.
