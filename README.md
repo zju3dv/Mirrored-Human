@@ -38,8 +38,8 @@ This repo has a close relation with EasyMocap. Please refer to our [EasyMocap](h
 Download our [zju-m-test.zip](https://www.dropbox.com/s/hk147ov7wc5xzzp/zju-m-demo.zip?dl=0)  and run the following code:
 ```bash
 # set the data path
-data=<path_to_sample>/sample-videos
-out=<path_to_sample>/sample-videos-output
+data=<path_to_sample>/zju-m-demo
+out=<path_to_sample>/zju-m-demo-output
 # extract the video frames
 python3 scripts/preprocess/extract_video.py ${data}
 # Run demo on videos
