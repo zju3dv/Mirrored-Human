@@ -97,6 +97,8 @@ To evaluate the reconstruction part in our paper, see [doc/evaluation.md](doc/ev
 ## Contact  
 Please open an issue if you have any questions. We appreciate all contributions to improve our project.
 
+If you find some videos that we didn't notice, please tell us.
+
 ## Citation
 
 ```
