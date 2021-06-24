@@ -20,6 +20,9 @@
     <sup>The videos are from <a href="https://www.youtube.com/watch?v=KOCJJ27hhIE">Youtube<a/> and Douyin. Please contact us for any copyright issue.</sup>
 </div>
 
+## News
+
+- We build a [website](https://chingswy.github.io/Dataset-Demo/mirror-new.html) for a fast preview of our dataset. The whole dataset will be released later.
 
 ## Features  
 In this paper, we introduce the new task of reconstructing 3D human pose from a single image in which we can see the person  and the person’s image through a mirror.
