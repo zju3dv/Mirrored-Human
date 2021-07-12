@@ -22,6 +22,7 @@
 
 ## News
 
+- The video clips are released as a part of the [ZJU-MoCap](https://chingswy.github.io/Dataset-Demo/) dataset.
 - We build a [website](https://chingswy.github.io/Dataset-Demo/mirror-new.html) for a fast preview of our dataset. The whole dataset will be released later.
 
 ## Features  
@@ -49,8 +50,8 @@ python3 scripts/preprocess/extract_video.py ${data}
 python3 apps/demo/1v1p_mirror.py ${data} --out ${out} --vis_smpl --video
 ```
 
-## Mirrored-Human Dataset (Coming Soon)
-Due to the license limitation, we cannot share the raw data directly. We are working hard to organize the Mirrored-Human dataset in terms of url links and timestamps.
+## Mirrored-Human Dataset
+Due to the license limitation, we cannot share the raw data directly. The video clips including url links and timestamps are released as a part of the [ZJU-MoCap](https://chingswy.github.io/Dataset-Demo/) dataset. The pseudo ground-truth will be released later.
 
 See [Build Your Internet Dataset](#Build-Custom-Internet-Dataset) if you can't wait for our release.
 
