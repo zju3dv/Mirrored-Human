@@ -23,7 +23,7 @@
 ## News
 
 - The video clips are released as a part of the [ZJU-MoCap](https://chingswy.github.io/Dataset-Demo/) dataset.
-- We build a [website](https://chingswy.github.io/Dataset-Demo/mirror-new.html) for a fast preview of our dataset. The whole dataset will be released later.
+- We build a [website](https://chingswy.github.io/Dataset-Demo/mirror-new.html) for a fast preview of our dataset.
 
 ## Features  
 In this paper, we introduce the new task of reconstructing 3D human pose from a single image in which we can see the person  and the person’s image through a mirror.
@@ -116,6 +116,3 @@ If you find some videos that we didn't notice, please tell us.
 
 ## Acknowledgement  
 This project is build on our [EasyMocap](https://github.com/zju3dv/EasyMocap). We also would like to thank Jianan Zhen and Yuhao Chen for their advice for the paper. Sincere thanks to the performers (Yuji Chen and Hao Xu) in the evaluation dataset and people who uploaded the mirror-human videos to the Internet.
-
-## Recommendations to other works from our group  
-Welcome to checkout our work on learning-based feature matching ([LoFTR](https://zju3dv.github.io/loftr/index.html)) and reconstruction ([NeuralBody](https://zju3dv.github.io/neuralbody/) and [NeuralRecon](https://zju3dv.github.io/neuralrecon/)) in CVPR 2021.
