@@ -99,7 +99,7 @@ See [doc/custom.md](doc/custom.md) for more instructions.
 To evaluate the reconstruction part in our paper, see [doc/evaluation.md](doc/evaluation.md).
 
 ## Contact  
-Please open an issue if you have any questions. We appreciate all contributions to improve our project.
+Please open an issue if you have any questions (prefer issues to emails such that other people could also see it). We appreciate all contributions to improve our project.
 
 If you find some videos that we didn't notice, please tell us.
 
