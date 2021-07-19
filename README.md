@@ -22,6 +22,7 @@
 
 ## News
 
+- The basic version of our dataset used for training has been released. The whole dataset needs more time to organize.
 - The video clips are released as a part of the [ZJU-MoCap](https://chingswy.github.io/Dataset-Demo/) dataset.
 - We build a [website](https://chingswy.github.io/Dataset-Demo/mirror-new.html) for a fast preview of our dataset.
 
@@ -51,9 +52,7 @@ python3 apps/demo/1v1p_mirror.py ${data} --out ${out} --vis_smpl --video
 ```
 
 ## Mirrored-Human Dataset
-Due to the license limitation, we cannot share the raw data directly. The video clips including url links and timestamps are released as a part of the [ZJU-MoCap](https://chingswy.github.io/Dataset-Demo/) dataset. The pseudo ground-truth will be released later.
-
-See [Build Your Internet Dataset](#Build-Custom-Internet-Dataset) if you can't wait for our release.
+Due to the license limitation, we cannot share the raw data directly. The video clips including url links and timestamps are released as a part of the [ZJU-MoCap](https://chingswy.github.io/Dataset-Demo/) dataset. Besides, the basic version of our dataset used for training has been released in the same place. Note that we have no license of those images, so the dataset cannot be used for commercial applications.
 
 <div align="center">
   <img src="doc/assets/dataset_show.jpg" width="70%" />
