@@ -22,7 +22,7 @@
 
 ## News
 
-- The basic version of our dataset used for training has been released. The whole dataset needs more time to organize.
+- The basic version of our dataset used for training has been released. 
 - The video clips are released as a part of the [ZJU-MoCap](https://chingswy.github.io/Dataset-Demo/) dataset.
 - We build a [website](https://chingswy.github.io/Dataset-Demo/mirror-new.html) for a fast preview of our dataset.
 
