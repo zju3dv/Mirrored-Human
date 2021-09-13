@@ -40,7 +40,7 @@ This implementation:
 This repo has a close relation with EasyMocap. Please refer to our [EasyMocap](https://github.com/zju3dv/EasyMocap) project for installation.
 
 ## Demo
-Download our [zju-m-test.zip](https://www.dropbox.com/s/hk147ov7wc5xzzp/zju-m-demo.zip?dl=0)  and run the following code:
+Download our [zju-m-demo.zip](https://www.dropbox.com/s/hk147ov7wc5xzzp/zju-m-demo.zip?dl=0)  and run the following code:
 ```bash
 # set the data path
 data=<path_to_sample>/zju-m-demo
