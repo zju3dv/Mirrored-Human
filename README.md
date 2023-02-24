@@ -41,6 +41,8 @@ This repo has a close relation with EasyMocap. Please refer to our [EasyMocap](h
 
 ## Demo
 Download our [zju-m-demo.zip](https://www.dropbox.com/s/hk147ov7wc5xzzp/zju-m-demo.zip?dl=0)  and run the following code:
+
+**ATTN: The following commands are old and please see [easymocap-doc-quickstart](https://chingswy.github.io/easymocap-public-doc/quickstart/quickstart.html) for a new version of startup.**
 ```bash
 # set the data path
 data=<path_to_sample>/zju-m-demo
@@ -48,8 +50,10 @@ out=<path_to_sample>/zju-m-demo-output
 # extract the video frames
 python3 scripts/preprocess/extract_video.py ${data}
 # Run demo on videos
-python3 apps/demo/1v1p_mirror.py ${data} --out ${out} --vis_smpl --video
+[old, not used!!] python3 apps/demo/1v1p_mirror.py ${data} --out ${out} --vis_smpl --video
 ```
+
+
 
 ## Mirrored-Human Dataset
 Due to the license limitation, we cannot share the raw data directly. The video clips including url links and timestamps are released as a part of the [ZJU-MoCap](https://chingswy.github.io/Dataset-Demo/) dataset. Besides, the basic version of our dataset used for training has been released in the same place. Note that we have no license of those images, so the dataset cannot be used for commercial applications.
